@@ -11,7 +11,7 @@ a태그들 밑줄 없애고 커서 올렸을때 색 변화
 <html>
 <style>
 body {
-	background-image: url(images/CAM00565.png);
+	background-image: url(images/art/CAM00565.png);
 	height: 100vh;
 	background-repeat: space;
 	background-position: inherit;
