@@ -19,11 +19,7 @@ public class QnaBean {
 	private String content;
 	private Timestamp reg_date;
 	private int readcount;
-	private String ref; // =num
-	private String re_step; //최신순, 낮은 번호가 최신
-	private String re_level; //원글0, 답글1, 답답글2
 	private String reply;
-	
 	
 	private MultipartFile upload;
 	public MultipartFile getUpload() {
@@ -104,24 +100,7 @@ public class QnaBean {
 	public void setReadcount(int readcount) {
 		this.readcount = readcount;
 	}
-	public String getRef() {
-		return ref;
-	}
-	public void setRef(String ref) {
-		this.ref = ref;
-	}
-	public String getRe_step() {
-		return re_step;
-	}
-	public void setRe_step(String re_step) {
-		this.re_step = re_step;
-	}
-	public String getRe_level() {
-		return re_level;
-	}
-	public void setRe_level(String re_level) {
-		this.re_level = re_level;
-	}
+
 	public String getReply() {
 		return reply;
 	}

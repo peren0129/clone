@@ -35,9 +35,9 @@
 
 	<insert id="insertData">
 		insert into
-		qna(num,writer,cateopen,cate,subject,image,content,reg_date,readcount,ref,re_step,re_level,reply)
+		qna(num,writer,cateopen,cate,subject,image,content,reg_date,readcount,reply)
 		values(q_seq.nextval,#{writer},#{cateopen},#{cate},#{subject},#{image},
-		#{content},#{reg_date},#{readcount,jdbcType=VARCHAR},q_seq.currval,0,0,'대기중')
+		#{content},#{reg_date},#{readcount,jdbcType=VARCHAR},'대기중')
 	</insert>
 
 	<select id="getData" resultType="MyQna">

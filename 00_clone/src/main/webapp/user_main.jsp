@@ -12,7 +12,7 @@ info = 사이트 소개
 <br>
 상품 판매 필수 아니면 선호작품리스트, 후원금 결제 추가
 <br> -->
-<%@include file="top.jsp"%>
+<%@ include file="WEB-INF/main/userTop.jsp"%>
 <article style="width: 1000px; margin: 0 auto;">
 
 	<table border="0">
@@ -28,6 +28,7 @@ info = 사이트 소개
 					</li>
 				</ul> <br>
 			</td>
+			<!-- <td colspan="3"><hr><br></td> -->
 		</tr>
 		<tr>
 			<td>
@@ -119,4 +120,4 @@ info = 사이트 소개
 		</tr>
 	</table> -->
 </article>
-<%@include file="bottom.jsp"%>
+<%@ include file="WEB-INF/main/userBottom.jsp"%>

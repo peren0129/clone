@@ -67,7 +67,7 @@ list-style-size:2px;  */
 			%>
 					<ul style="float: right; padding-left:650px;">
 						<li class="st"><a href="<%=request.getContextPath()%>/loginForm.jsp" style="color: maroon;">Login</a></li>
-						<li class="st"><a href="<%=request.getContextPath()%>/join_form.jsp" style="color: maroon;">Join</a></li>
+						<li class="st"><a href="join.user" style="color: maroon;">Join</a></li>
 					</ul>
 			<% } else{ %> 
 			<a href="logout.jsp" class="logout" style="border: 1">
@@ -114,8 +114,8 @@ list-style-size:2px;  */
 					href="<%=request.getContextPath()%>/shop/display/mall.jsp">SHOP</a></li>
 				<li class="nav-item"><a class="nav-link"
 					href="<%=request.getContextPath()%>/shop/display/mall_cartList.jsp">CART</a></li>
-				<li class="nav-item"><a class="nav-link"
-					href="<%=request.getContextPath()%>/shop/board/list.jsp">BOARD</a></li>
+				<li class="nav-item">
+					<a class="nav-link" href="list.no">BOARD</a></li>
 				<li class="nav-item"><a class="nav-link"
 					href="<%=request.getContextPath()%>/shop/display/info.jsp">INFO</a></li>
 				<li class="nav-item"><a class="nav-link"

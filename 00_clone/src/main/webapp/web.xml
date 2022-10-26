@@ -48,7 +48,7 @@
 		<url-pattern>/*</url-pattern>  <!--  모든 요청이 들어왔을때 넘어오는 데이터를 utf-8로 한글처리하겠다는 뜻 -->
 	</filter-mapping>	
 	
-	
+<!-- 	
 	<servlet>
 		<servlet-name>member</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -63,25 +63,24 @@
 		<servlet-name>member</servlet-name>
 		<url-pattern>*.mem</url-pattern>
 	</servlet-mapping>	
-	
-	
+ -->
+
 	<servlet>
-		<servlet-name>alcohol</servlet-name>
+		<servlet-name>user</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>/WEB-INF/spring/appServlet/alcohol-servlet.xml</param-value>
+			<param-value>/WEB-INF/spring/appServlet/user-servlet.xml</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
-		
 	<servlet-mapping>
-		<servlet-name>alcohol</servlet-name>
-		<url-pattern>*.al</url-pattern>
+		<servlet-name>user</servlet-name>
+		<url-pattern>*.user</url-pattern>
 	</servlet-mapping>
 	
 	<servlet>
-		<servlet-name>mall</servlet-name>
+		<servlet-name>main</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
@@ -89,10 +88,9 @@
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
-		
 	<servlet-mapping>
-		<servlet-name>mall</servlet-name>
-		<url-pattern>*.mall</url-pattern>
+		<servlet-name>main</servlet-name>
+		<url-pattern>*.main</url-pattern>
 	</servlet-mapping>
 	
 	<servlet>
@@ -104,25 +102,9 @@
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
-		
 	<servlet-mapping>
 		<servlet-name>notice</servlet-name>
 		<url-pattern>*.no</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>review</servlet-name>
-		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-		<init-param>
-			<param-name>contextConfigLocation</param-name>
-			<param-value>/WEB-INF/spring/appServlet/review-servlet.xml</param-value>
-		</init-param>
-		<load-on-startup>1</load-on-startup>
-	</servlet>
-		
-	<servlet-mapping>
-		<servlet-name>review</servlet-name>
-		<url-pattern>*.re</url-pattern>
 	</servlet-mapping>
 	
 	<servlet>
@@ -134,16 +116,15 @@
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
-		
 	<servlet-mapping>
 		<servlet-name>qna</servlet-name>
 		<url-pattern>*.qna</url-pattern>
 	</servlet-mapping>
 	
 	
+	<!-- 
 	
-	
-	<!-- 추가 -->
+	추가
 	<servlet>
 		<servlet-name>admin</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -159,7 +140,7 @@
 		<url-pattern>*.ad</url-pattern>
 	</servlet-mapping>
 	
-		
+		 -->
 
 
 </web-app>

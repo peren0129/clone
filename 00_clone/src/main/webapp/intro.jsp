@@ -48,7 +48,7 @@ div {
 	padding-right: 10em;
 }
 
-.home-enter:hover { /* ********* 마우스 올렸을 때 색상변화 작동 X **********  */
+.home-enter:hover {
 	color: #fff !important;
 }
 </style>
@@ -60,7 +60,8 @@ div {
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- Bootstrap CSS -->
-<link rel="stylesheet"
+<link rel="stylesheet"	.
+
 	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 
 <%-- <%@include file="<%=request.getContextPath()%>/top.jsp"%> --%>
