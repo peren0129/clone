@@ -6,17 +6,16 @@
 <configuration>
 
 	<typeAliases>
-		<typeAlias type="qna.model.QnaBean" alias="MyQna" />
-		<typeAlias type="qna.model.QcommentBean" alias="MyComment" />
+		<!-- <typeAlias type="qna.model.QnaBean" alias="MyQna" /> -->
+		<!-- <typeAlias type="qna.model.QcommentBean" alias="MyComment" /> -->
 		<typeAlias type="notice.model.NoticeBean" alias="MyNotice" />
-		<typeAlias type="member.model.userBean" alias="MyUser" />
-		<typeAlias alias="MyOrder" type="order.model.OrderBean"/>
+		<!-- <typeAlias type="member.model.userBean" alias="MyUser" /> -->
 	</typeAliases>
 
 	<mappers>
-		<mapper resource="mybatis/qna.xml" />
+		<!-- <mapper resource="mybatis/qna.xml" /> -->
 		<mapper resource="mybatis/notice.xml" />
-		<mapper resource="mybatis/user.xml" />
+		<!-- <mapper resource="mybatis/user.xml" /> -->
 	</mappers>
 </configuration>
 
